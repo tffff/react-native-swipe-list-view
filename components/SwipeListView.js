@@ -295,7 +295,7 @@ SwipeListView.propTypes = {
 	/**
 	 * Styles for the parent wrapper View of the SwipeRow
 	 */
-	swipeRowStyle: ViewPropTypes.style,
+	swipeRowStyle: PropTypes.style,
 	/**
 	 * Called when the ListView (or FlatList) ref is set and passes a ref to the ListView (or FlatList)
 	 * e.g. listViewRef={ ref => this._swipeListViewRef = ref }
